@@ -1,0 +1,22 @@
+{
+  "name": "auto-login-wifi",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiasm/auto-login-wifi.git"
+  },
+  "bin": {
+    "log_wifi": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jiasm/auto-login-wifi/issues"
+  },
+  "homepage": "https://github.com/Jiasm/auto-login-wifi#readme",
+  "dependencies": {
+    "nightmare": "^2.10.0"
+  }
+}
