@@ -8,7 +8,8 @@
     "url": "git+https://github.com/Jiasm/auto-login-wifi.git"
   },
   "bin": {
-    "log_wifi": "./index.js"
+    "wifi_login": "./index.js",
+    "wifi_logout": "./logout.js"
   },
   "author": "",
   "license": "ISC",

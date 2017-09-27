@@ -14,6 +14,9 @@ export LOGIN_WIFI_PASSWORD=XXX
 
 记得`source ~/.zshrc` or `source ~/.bashrc` or `source ~/.profile`
 
-然后执行`log_wifi`即可愉快的上网咯
+然后执行`wifi_login`即可愉快的上网咯
 
 > 由 [nightmare](https://github.com/segmentio/nightmare) 强劲驱动
+
+
+执行`wifi_logout`即可注销
