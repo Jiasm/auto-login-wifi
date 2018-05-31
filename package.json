@@ -19,5 +19,9 @@
   "homepage": "https://github.com/Jiasm/auto-login-wifi#readme",
   "dependencies": {
     "nightmare": "^2.10.0"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "nightmare-upload": "^0.1.1"
   }
 }
