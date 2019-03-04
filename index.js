@@ -15,7 +15,7 @@ if (!process.env.LOGIN_WIFI_USERNAME || !process.env.LOGIN_WIFI_PASSWORD) {
 }
 
 nightmare
-  .goto('http://10.10.10.1/ac_portal/default/pc.html?tabs=pwd')
+  .goto('http://10.0.16.2/ac_portal/default/pc.html?tabs=pwd')
   .type('#password_name', process.env.LOGIN_WIFI_USERNAME)
   .type('#password_pwd', process.env.LOGIN_WIFI_PASSWORD)
   .click('#password_submitBtn')
