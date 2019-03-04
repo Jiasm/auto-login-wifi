@@ -8,7 +8,7 @@ const nightmare = Nightmare({
 })
 
 nightmare
-  .goto('http://10.10.10.1/index.htm')
+  .goto('http://10.0.16.2/index.htm')
   .wait()
   .evaluate((done) => {
     conn = createXhrObject()
